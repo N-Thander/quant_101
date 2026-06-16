@@ -26,4 +26,4 @@ years = 10
 fv1 = future_value_discrete(present_value, rate, years)
 fv2 = future_value_continuous(present_value, rate, years)
 print(f"Future value with discrete model is: $ {fv1:.2f}")
-print(f"Future value with continuous money is: {fv2:.2f}")
+print(f"Future value with continuous money is: $ {fv2:.2f}")
